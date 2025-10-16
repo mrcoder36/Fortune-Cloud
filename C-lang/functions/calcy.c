@@ -29,6 +29,5 @@ int main(void) {
     multiplication(2, 5);
     division(2, 5);
     division(2, 0); /* demonstrate safe handling */
-
     return 0;
 }

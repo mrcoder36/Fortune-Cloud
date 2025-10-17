@@ -13,20 +13,15 @@
 // }
 
 // Sum from n up to 10 (if n <= 10)
-int sum(int n)
-{
-    if (n > 10)
-    {
+int sum(int n) {
+    if (n > 10) {
         return 0; // base case: if n exceeds 10, stop
-    }
-    else
-    {
+    } else {
         return n + sum(n + 1); // add current n and recurse with n+1
     }
 }
 
-int main()
-{
+int main() {
 
     int n;
     printf("Enter the +ve number: ");

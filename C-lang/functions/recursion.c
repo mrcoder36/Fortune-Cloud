@@ -14,10 +14,11 @@
 
 // Sum from n up to 10 (if n <= 10)
 int sum(int n) {
-    if (n > 10) {
-        return 0; // base case: if n exceeds 10, stop
-    } else {
+    if (n <= 10) {
         return n + sum(n + 1); // add current n and recurse with n+1
+    } else {
+        printf("Reached base case with n = %d\n", n);
+        return 0; // base case: if n exceeds 10, stop
     }
 }
 

@@ -8,16 +8,16 @@ int main(){
 	
 
 
-	if(age==15) {
+	if(age == 15) {
 		printf("You can apply for SCC");
 	}
-	else if(age==18){
+	else if(age == 18) {
 		printf("You can apply for HSC");
 	} 
 	else if(age == 20) {
 		printf("You can apply for Degree");
 	}
-	else if(age== 22){
+	else if(age == 22) {
 		printf("You can apply for Masters");
 	}
 	else {

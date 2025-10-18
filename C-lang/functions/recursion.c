@@ -20,7 +20,7 @@ int sum(int n) {
         printf("Reached base case with n = %d\n", n);
         return 0; // base case: if n exceeds 10, stop
     }
-}
+} 
 
 int main() {
 

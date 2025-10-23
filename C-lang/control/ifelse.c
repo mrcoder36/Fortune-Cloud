@@ -5,8 +5,6 @@ int main(){
 	int age = 0;	
 	printf("Enter a number: ");
 	scanf("%d", &age); // to take input from users
-	
-
 
 	if(age == 15) {
 		printf("You can apply for SCC");

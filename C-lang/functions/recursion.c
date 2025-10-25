@@ -4,13 +4,13 @@
 
 // factorial---------------------------->
 
-// long fact(int p ) {
-//     if(p >= 1) {
-//         return p*fact(p-1);
-//     } else {
-//         return 1;
-//     }
-// }
+long fact(int p ) {
+    if(p >= 1) {
+        return p*fact(p-1);
+    } else {
+        return 1;
+    }
+}
 
 // Sum from n up to 10 (if n <= 10)
 int sum(int n) {

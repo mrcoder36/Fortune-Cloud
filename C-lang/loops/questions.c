@@ -31,7 +31,7 @@ int main() {
     
     // Q2  
 
-    /*
+    
     int n = 100;
     for(int i = 0; i <= n; i++) {
         if (i%2 == 0)
@@ -40,7 +40,7 @@ int main() {
         } 
         
     }
-    */
+    
 
 
     // Q3

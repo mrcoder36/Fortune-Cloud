@@ -1,9 +1,9 @@
-
+#include<stdio.h>
 
 int main() {
-    for (int i = 1 ; i < 8; i++) {
+    for(int i = 1 ; i < 8; i++) {
         
-        for (int j = 0; j < 5; j++) {
+        for(int j = 0; j < 5; j++) {
             if (i %2 == 0) {
                 printf("B ");
             } else {

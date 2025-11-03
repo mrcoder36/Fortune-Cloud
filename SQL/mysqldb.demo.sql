@@ -1,0 +1,9 @@
+-- @block
+show databases;
+-- @block
+USE pune;
+-- @block
+SHOW TABLES;
+-- @block
+SELECT *
+FROM student;

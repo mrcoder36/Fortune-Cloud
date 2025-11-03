@@ -12,7 +12,7 @@ select *
 from stud;
 -- @block
 INSERT INTO stud
-VALUES(4, 'Radhika', 'UP');
+VALUES(4, 'Vamika', 'UP');
 -- Ensure a matching row for joins
 INSERT INTO stud
 VALUES(2, 'Aakash', 'Pune');

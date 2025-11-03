@@ -1,7 +1,7 @@
 -- @block
 show databases;
 -- @block
-USE pune;
+USE demo;
 -- @block
 SHOW TABLES;
 -- @block

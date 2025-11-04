@@ -55,3 +55,6 @@ FROM stud
 SELECT *
 FROM stud
     CROSS JOIN details;
+
+-- @block   Use for joining three tables at once
+SELECT * FROM tb1_name INNER JOIN tb2_name ON tb1_name.id = tb2_name.id INNER JOIN tb3_name ON tb2_name.id = tb3_name.id

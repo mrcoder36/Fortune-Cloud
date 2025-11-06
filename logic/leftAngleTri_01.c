@@ -7,7 +7,7 @@ void main() {
             printf(" ");
         }
         for (c=0; c<=r; c++) {
-            printf("*");
+            printf("1");
             
         }
         printf("\n");

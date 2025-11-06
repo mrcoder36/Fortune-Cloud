@@ -1,8 +1,7 @@
 // Area of Square
 // formula = area = a*a;
 
-
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
 
@@ -15,7 +14,6 @@ int main() {
     area = side * side;
 
     printf("The area of square is %.2f", area);
-
 
     return 0;
 }

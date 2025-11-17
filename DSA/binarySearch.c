@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void main() {
+int main() {
     int arr[5] = {10,20,30,40,50};
 
     int size = sizeof(arr)/sizeof(arr[0]);

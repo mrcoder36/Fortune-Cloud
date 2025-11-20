@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Collision Sim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <canvas id="simCanvas"></canvas>
+
+        <div class="controls">
+            <h1>Collision Sim</h1>
+            <div class="control-group">
+                <button id="addBallBtn" class="btn primary">Add Ball</button>
+                <button id="clearBtn" class="btn danger">Clear All</button>
+            </div>
+            <div class="control-group">
+                <label class="toggle">
+                    <input type="checkbox" id="gravityToggle">
+                    <span class="slider"></span>
+                    <span class="label-text">Gravity</span>
+                </label>
+            </div>
+            <div class="stats">
+                <p>Balls: <span id="ballCount">0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

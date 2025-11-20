@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes anime {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+            25% {
+                top: 0px;
+                left: 400px;
+            }
+            50% {
+                top: 400px;
+                left: 400px;
+            }
+            75% {
+                top: 400px;
+                left: 0px;
+            }
+            100% {
+                top: 0px;
+                left: 0px;
+            }
+        }
+
+        .anime {
+            height: 200px;
+            width: 200px;
+            position: relative;
+            animation: anime;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            transition: ease;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    </style>
+</head>
+<body>
+    <div class="anime">
+        <img src="ChatGPT Image Nov 13, 2025, 11_21_34 AM.png" alt="">
+
+    </div>
+</body>
+</html>

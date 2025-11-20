@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="bgCanvas"></canvas>
+    <div class="game-container">
+        <header>
+            <h1>Hangman</h1>
+            <p>Guess the word to save the stickman!</p>
+        </header>
+
+        <div class="game-area">
+            <div class="hangman-box">
+                <canvas id="hangmanCanvas" width="200" height="250"></canvas>
+            </div>
+
+            <div class="word-display" id="wordDisplay"></div>
+
+            <div class="status-message" id="statusMessage"></div>
+        </div>
+
+        <div class="keyboard" id="keyboard"></div>
+
+        <button id="playAgainBtn" class="play-again-btn hidden">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

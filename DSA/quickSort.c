@@ -48,7 +48,7 @@ int main() {
 
     printf("\n");
     
-    quickSort(arr, 0, n - 1);
+    quickSort(arr, 0, n - 1); // for dividing the array using 0, n-1
 
     printf("Sorted Array: \n");
     printArray(arr, n);

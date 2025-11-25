@@ -12,10 +12,10 @@ void display();
 int main()
 {
     int choice = 0;
-    while (choice != 4)
+    while (choice != 3)
     {
         printf("\n Choose One option from the following List");
-        printf("\n 1. Insert in begining \n 2. Show \n 3. Exit\n");
+        printf("\n 1. Insert in beginning \n 2. Show \n 3. Exit\n");
         printf("\n Enter your choice: ");
         scanf("\n%d", &choice);
 
@@ -29,8 +29,10 @@ int main()
             break;
         case 3:
             exit(0);
+            break;
         default:
             printf("Invalid Choice...");
+            break;
         }
     }
 }

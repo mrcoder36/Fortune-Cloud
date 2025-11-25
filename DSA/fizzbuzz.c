@@ -10,6 +10,8 @@ int main() {
             printf("\n%d Fizz", i);
         } else if (i % 5 == 0) {
             printf("\n%d Buzz", i);
+        } else {
+            printf("\n%d", i);
         }
     }
 }

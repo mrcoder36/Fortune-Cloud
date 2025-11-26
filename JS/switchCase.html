@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SwitchCase</title>
     <script>
+        var a = 6;
+        var b = 9;
         var choice = 3;
         switch (choice) {
             case 1:
-                console.log("First case");
+                console.log("Addition : " , a+b);
                 break;
             case 2:
-                console.log(("Second case"));
+                console.log(("Subtraction : ", a-b));
                 break;
             case 3:
-                console.log("third case");
+                console.log("Multiplication : ", a*b);
+                break;
+            case 3:
+                console.log("Division : ", a/b);
                 break;
             default:
                 console.log("Default case");

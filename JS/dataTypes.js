@@ -15,16 +15,3 @@ console.log(typeof(strArr));
 console.log(un);
 console.log(ab + ban);
 
-
-for (let i = 0; i <= 10; i++) {
-    for (let j = 0; j <= 10; j++) {
-        console.log(i);
-        
-        
-    }
-    
-}
-
-// display the addition of only even number btn 1 to 100
-// same like odd
-// display fibbonacci series

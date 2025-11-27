@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script>
+			// addition of even number
+			let sum = 0;
+			for (let i = 0; i <= 100; i++) {
+				if (i % 2 == 0) {
+					sum = sum + i;
+				}
+			}
+			document.write("Sum of even numbers: ", sum);
+
+			// addition of odd number
+			for (let i = 0; i <= 100; i++) {
+				if (i % 1 == 0) {
+					sum = sum + i;
+				}
+			}
+			document.write("<br><br>Sum of odd numbers: ", sum);
+
+			// fibonacci series
+			let n1 = 0,
+				n2 = 1,
+				nextTerm;
+			let n = 10; // number of terms
+			let fibSum = 0;
+			document.write("<br><br>Fibonacci Series: ");
+
+			for (let i = 1; i <= n; i++) {
+				document.write(n1 + " ");
+				fibSum += n1;
+				nextTerm = n1 + n2;
+				n1 = n2;
+				n2 = nextTerm;
+			}
+			document.write("<br>Sum of Fibonacci series: " + fibSum);
+		</script>
+	</head>
+	<body></body>
+</html>

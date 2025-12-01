@@ -6,6 +6,7 @@ while (temp > 0) {
     rev = rev * 10 + rem;
     temp = parseInt(temp / 10);
 }
+
 if (rev == n) {
     console.log("The number is palindrome");
 } else {

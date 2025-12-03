@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <Script>
+        // Window Object ----------------------------------------------------
+        function boxAlert() {
+            alert("Hello World")
+        }
+
+        function conBox() {
+            var a = confirm("Are you sure !");
+            if (a == true) {
+                alert("You pressed OK!")
+            } else {
+                alert("You pressed Cancel!")
+            }
+        }
+
+        function input() {
+            var name = prompt("Enter You name: ");
+            alert("Your name is " + name);
+        }
+
+        function get() {
+            setTimeout(function() {
+                alert("I am feeling Good");
+            }, 1000);
+        }
+
+        // Location Object ---------------------------------------------------
+
+        function localHref() {
+            location.href = "https://www.google.com/";
+        }
+
+        function localRel() {
+            location.reload();
+        }
+
+        function localRep() {
+            location.replace("https://www.google.com/");
+        }
+
+        function localAsg() {
+            location.assign("https://www.google.com/");
+        }
+
+        // history Object ----------------------------------------------------
+
+        function hisFor() {
+            history.forward();
+        }
+
+        function hisBack() {
+            history.back();
+        }
+
+        function openHis() {
+            open("https://www.google.com/")
+            console.log(history.open);
+            
+        }
+
+        // Screen Object Methods ---------------------------------------------
+
+        function screenInfo() {
+            console.log("Screen width: " + screen.width);
+            console.log("Screen height: " + screen.height);
+        }
+    </Script>
+</head>
+<body>
+    <button onclick="boxAlert()">alert</button>
+    <button onclick="conBox()">confirm</button>
+    <button onclick="input()">prompt</button>
+    <button onclick="get()">timeout</button>
+    <hr>
+    <button onclick="localHref()">localHref</button>
+    <button onclick="localRel()">localRel</button>
+    <button onclick="localRep()">localRep</button>
+    <button onclick="localAsg()">localAsg</button>
+    <hr>
+    <button onclick="hisFor()">hisFor</button>
+    <button onclick="hisBack()">hisBack</button>
+    <hr>
+    <button onclick="screenInfo">ScreenInfo</button>
+
+
+</body>
+</html>

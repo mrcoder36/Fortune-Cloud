@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script>
+			function multi() {
+				var x = document.getElementById("num").value;
+				let result = "";
+				for (let i = 1; i <= 10; i++) {
+					let z = x * i;
+					result = result + x + " x " + i + " = " + z + "<br>";
+				}
+				document.getElementById("show").innerHTML = result;
+			}
+		</script>
+	</head>
+	<body>
+		<form>
+			<input type="text" id="num" placeholder="Enter a Number" /><br/><br>
+			<button type="button" onclick="multi()">Click</button>
+			<h3 id="show"></h3>
+		</form>
+	</body>
+</html>
